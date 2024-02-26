@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+/* ! Header styles */
+nav .brand-logo {
+  position: static !important;
+}
+
+nav .select-wrapper {
+  width: 120px !important;
+}
+
+nav .select-wrapper input.select-dropdown {
+  margin: 0;
+  color: white;
+  border-bottom: none !important;
+}
+
+nav .select-wrapper .caret {
+  fill: white;
+}
+
+nav .brand-logo {
+  font-size: 1.5rem !important;
+}
